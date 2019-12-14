@@ -1,6 +1,10 @@
 Intended to be a productivity application.
 
-A script that you can add a list of processes and it will kill the processes if it's within a specified time and date range
+A script that you can run.
+
+Takes a list of processes you want to prevent yourself from running and a time and date range when you don't want them to run.
+
+It will kill the processes if it's within that specified time and date range.
 
 TODOs
 
