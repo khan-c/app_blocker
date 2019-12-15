@@ -1,0 +1,7 @@
+- list of desktop applications are found in /usr/share/applications
+  - can use that potentially for GUI to click/drag apps you want to block - would need to find out process name though
+  - filetype is .desktop (at least for some linux distros, from what i can tell)
+    - source https://developer.gnome.org/integration-guide/stable/desktop-files.html.en
+    - would be different for different OSs
+- generally there is some executable shell script that is run to start the application
+  - wonder then if instead of doing a constant check on what processes are running, there's a filter on what's commands are executed and check to see if they include the processes in the list.
